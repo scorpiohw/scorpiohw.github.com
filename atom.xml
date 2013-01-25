@@ -4,7 +4,7 @@
   <title><![CDATA[伯遠君の部屋]]></title>
   <link href="http://scorpiohw.github.com/atom.xml" rel="self"/>
   <link href="http://scorpiohw.github.com/"/>
-  <updated>2013-01-25T18:21:21+08:00</updated>
+  <updated>2013-01-25T18:32:32+08:00</updated>
   <id>http://scorpiohw.github.com/</id>
   <author>
     <name><![CDATA[ScorpioHW]]></name>
@@ -14,12 +14,17 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
+    <title type="html"><![CDATA[卷首语]]></title>
     <link href="http://scorpiohw.github.com/blog/2013/01/25/hello-world/"/>
     <updated>2013-01-25T17:56:00+08:00</updated>
     <id>http://scorpiohw.github.com/blog/2013/01/25/hello-world</id>
-    <content type="html"><![CDATA[<p>尝试一下中文哦！
-Hello World!!</p>
+    <content type="html"><![CDATA[<p>一直希望有自己的部屋，现在这个愿望终于实现了。：）</p>
+
+<p>无论是最早的百度空间，还是之后的blog.com，或者点点，总之写起来没有感觉。我想还是归属感的问题吧。博客应该是一种心血的见证，应该像midori一样，是充满了回忆的美好事物。这样才对吧。</p>
+
+<p>我希望以后可以好好的建设这个部屋。我喜欢做站长的感觉。</p>
+
+<p>加油！</p>
 ]]></content>
   </entry>
   
