@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[伯遠君の部屋]]></title>
-  <link href="http://scorpiohw.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 日记 | 伯遠君の部屋]]></title>
+  <link href="http://scorpiohw.github.com/blog/categories/日记/atom.xml" rel="self"/>
   <link href="http://scorpiohw.github.com/"/>
   <updated>2013-01-25T18:34:03+08:00</updated>
   <id>http://scorpiohw.github.com/</id>
