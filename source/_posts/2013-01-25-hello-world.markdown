@@ -3,7 +3,7 @@ layout: post
 title: "卷首语"
 date: 2013-01-25 17:56
 comments: true
-categories: [日记]
+categories: [Tech]
 ---
 
 一直希望有自己的部屋，现在这个愿望终于实现了。：）
