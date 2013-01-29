@@ -5,8 +5,6 @@ date: 2013-01-29 15:17
 comments: true
 categories: [Tech, Markdown]
 ---
-<a href="https://github.com/scorpiohw/scorpiohw.github.com/tree/source/downloads/1.pdf">Link text</a>
-
 ## 方法一
 {% img /pictures/插入图片测试.png 测试图片1%}  
 
