@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[伯遠君の部屋]]></title>
-  <link href="http://scorpiohw.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Markdown | 伯遠君の部屋]]></title>
+  <link href="http://scorpiohw.github.com/blog/categories/markdown/atom.xml" rel="self"/>
   <link href="http://scorpiohw.github.com/"/>
   <updated>2013-01-29T17:04:02+08:00</updated>
   <id>http://scorpiohw.github.com/</id>
@@ -22,7 +22,7 @@
 
 <h2>方法一</h2>
 
-<p><img src="http://scorpiohw.github.com/pictures/插入图片测试.png" title="测试图片1" ></p>
+<p><img src="/pictures/插入图片测试.png" title="测试图片1" ></p>
 
 <p><code>![插入图片测试](./pictures/插入图片测试.png)</code></p>
 
@@ -34,7 +34,7 @@
 
 <p>方法一中的方式使通过相对地址。这样的好处是只要文件结构相同不需要修改代码。方法二中采用的是直接地址，好处是可以添加文件，添加视频等等任何东西都可以只要绝对地址不改变。不过对于文件结构稳定性要求较高。不适合长期使用。还是相对地址比较合适。当然如果是有效期比较短的文件没有什么问题，使用完直接<code>export</code>就好了。如果有效期比较长的文件就需要考虑引用方式了。</p>
 
-<p><img src="http://scorpiohw.github.com/pictures/mouth.png" title="测试图片2" ></p>
+<p><img src="/pictures/mouth.png" title="测试图片2" ></p>
 
 <p><code>![](file:///Users/Mike/Dropbox/Apps/nvALT%20Data/pictures/mouth.png)</code></p>
 ]]></content>
@@ -106,21 +106,6 @@ xelatex anyName.tex -o anyName.pdf
 </code></pre>
 
 <p>是不是很酷呀！！</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[卷首语]]></title>
-    <link href="http://scorpiohw.github.com/blog/2013/01/25/hello-world/"/>
-    <updated>2013-01-25T17:56:00+08:00</updated>
-    <id>http://scorpiohw.github.com/blog/2013/01/25/hello-world</id>
-    <content type="html"><![CDATA[<p>一直希望有自己的部屋，现在这个愿望终于实现了。：）</p>
-
-<p>无论是最早的百度空间，还是之后的blog.com，或者点点，总之写起来没有感觉。我想还是归属感的问题吧。博客应该是一种心血的见证，应该像midori一样，是充满了回忆的美好事物。这样才对吧。</p>
-
-<p>我希望以后可以好好的建设这个部屋。我喜欢做站长的感觉。</p>
-
-<p>加油！</p>
 ]]></content>
   </entry>
   
