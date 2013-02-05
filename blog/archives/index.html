@@ -47,6 +47,13 @@
   <a href="https://github.com/scorpiohw" class="github" title="Github"></a>
   </li>
   
+
+  <!-- RSS -->
+  <li>
+    <a href="/atom.xml" class="rss" title="RSS"></a>
+  </li>
+
+  
   
   
   
@@ -59,11 +66,15 @@
 
 <!-- use full url including 'index.html' for navigation bar if you are using ajax -->
 <ul id="nav">
-	<li id="ajax"><a href="/index.html">Home</a></li>
-    <li><a href="/blog/categories/tech/">Tech</a></li>
-    <li><a href="/about">About</a></li> 
-	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
-    <li><a href="/atom.xml">RSS</a></li>
+	<li id="ajax"><a href="/blog/archives/index.html">Home</a>
+    </li>
+
+    <li><a href="/blog/categories/tech/">Tech</a>
+    </li>
+
+    <li><a href="/about">About</a>
+    </li> 
+
     
     <li>
     <div id="dark">
@@ -162,6 +173,19 @@
 })(jQuery);
 </script> <!-- Delete or comment this line to disable Fancybox -->
 
+
+<script type="text/javascript">
+      var disqus_shortname = 'Comments';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 
