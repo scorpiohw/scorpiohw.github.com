@@ -11,14 +11,8 @@ categories: 摄影, 文化, 历史
 
 这个计划很简单，用我手中的相机探索这个城市的历史痕迹。探索这个城市日新月异的变化。总之，我要探索的是这个城市独一无二的地方。只要看到我的记录，就会明白「这里是北京」。
 
-**南锣鼓巷**
+![南锣鼓巷](http://photos.tuchong.com/26026/f/4232732.jpg)
 
-{% img http://photos.tuchong.com/26026/f/4232732.jpg [南锣鼓巷] %}
+![祈年殿](http://photos.tuchong.com/26026/f/4232733.jpg)
 
-**祈年殿**
-
-{% img http://photos.tuchong.com/26026/f/4232733.jpg [祈年殿] %}
-
-**万寿山**
-
-{% img http://photos.tuchong.com/26026/f/4232734.jpg [万寿山] %}
+![万寿山](http://photos.tuchong.com/26026/f/4232734.jpg)
