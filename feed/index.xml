@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[伯遠君の部屋]]></title>
-  <link href="http://scorpiohw.github.com/atom.xml" rel="self"/>
+  <link href="http://scorpiohw.github.com/feed" rel="self"/>
   <link href="http://scorpiohw.github.com/"/>
   <updated>2013-02-28T19:29:50+08:00</updated>
   <id>http://scorpiohw.github.com/</id>
