@@ -97,3 +97,6 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Douban
+douban_user: takihiko

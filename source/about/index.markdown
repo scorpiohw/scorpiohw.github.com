@@ -1,12 +1,11 @@
 ---
 layout: page
 title: "about"
-date: 2013-01-25 18:46
+date: 2013-02-28 19:03
 comments: true
 sharing: true
 footer: true
 ---
-
 这里是我的部屋啦。虽然没有很漂亮，但是很温馨哦！XD
 
 你可以在这里了解到我的一些内容。我目前在米国读研究生，研究数据挖掘和机器学习。业余时间喜欢写些小程序，你可以关注我的[GitHub](https://github.com/scorpiohw)啦！
