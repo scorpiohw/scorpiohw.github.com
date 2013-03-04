@@ -100,3 +100,6 @@ facebook_like: false
 
 # Douban
 douban_user: takihiko
+
+# Weibo
+weibo_user: takihiko

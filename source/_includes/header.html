@@ -14,6 +14,9 @@
   {% if site.github_user %}
     <li> <a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a> </li>
   {% endif %}
+  {% if site.weibo_user %}
+    <li> <a class="weibo" href="http://weibo.com/{{ site.weibo_user }}" title="Weibo">Weibo</a> </li>
+  {% endif %}
 </ul>
 <div class="clear"></div>
 <ul id="nav">
@@ -27,5 +30,11 @@
     <li><a href="{{ root_url }}/blog/archives" class="current">archives</a></li>
   {% else %}
     <li><a href="{{ root_url }}/blog/archives">archives</a></li>
+  {% endif %}
+
+  {% if page.current == 'about' %}
+    <li><a href="{{ root_url }}/about" class="current">about</a></li>
+  {% else %}
+    <li><a href="{{ root_url }}/about">about</a></li>
   {% endif %}
 </ul>

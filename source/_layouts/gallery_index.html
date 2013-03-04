@@ -1,0 +1,14 @@
+---
+layout: base
+current: galleries
+---
+{% for gallery in page.galleries %}
+<div style="width: 35em; text-align: center; padding: 1em 0 4em 0;">
+    <a href="/{{site.gallery_dir}}/{{ gallery['gallery'] }}">
+        <img style="max-height: 20em; max-width: 20em;" src="/{{site.gallery_dir}}/{{ gallery['gallery'] }}/thumbs/{{ gallery['best_image'] }}">
+    </a>
+    <h3><a href="/{{site.gallery_dir}}/{{ gallery['gallery'] }}">{{ gallery["title"] }}</a></h3>
+    <p>{{ gallery["description"] }}</p>
+    {{ gallery["images"] | size }} images
+</div>
+{% endfor %}

@@ -1,19 +1,22 @@
 ---
 layout: page
 title: "about"
-date: 2013-02-28 19:03
-comments: true
+current: "about"
+
+date: 2013-03-04 21:55
+comments: false
 sharing: true
 footer: true
 ---
-这里是我的部屋啦。虽然没有很漂亮，但是很温馨哦！XD
+<img style="float:left;margin-right: 24px;" width="180px" title="Scorpiohw" src="https://secure.gravatar.com/avatar/53a25fe5b3a128eca4e45ee807889c88?s=420" alt="Avatar">
 
-你可以在这里了解到我的一些内容。我目前在米国读研究生，研究数据挖掘和机器学习。业余时间喜欢写些小程序，你可以关注我的[GitHub](https://github.com/scorpiohw)啦！
+Aloha! 我就是这个博客的主人啦～XD
 
-同时我也很喜欢写作和摄影。目前我在进行一个开放式小说创作项目-[*Ficcon*](https://github.com/scorpiohw/Ficcon)，欢迎你关注[*Wiki*](http://ficcon.wikia.com/wiki/Main_Page)哦！
+这是我的私人博客。在这里，我会展示一些我最新的思考，最新的作品，或者任何我希望与各位分享的内容。本博客并没有明确的定位，但是大致可以分为三部分内容：技术、文化、摄影。这三部分内容也是我主要的爱好所在。希望各位喜欢这里。
 
-你喜欢摄影么？我会经常把一些喜欢的作品放到[这里](http://takihiko.tuchong.com)，来和大家交流。摄影真的很有魅力啦。尤其是从取景器中观察这个世界的时候，太迷人了。。
+目前我在米国读书，主修计算机科学（Computer Science）。如果你对本博客的内容有任何的疑问，请放心使用评论功能。如果希望私下与我联系，请发送至【huanwng at gmail.com】。如无问题，我会尽快回复。
 
-如有需要请致信：scorpiohw [at] gmail.com
-
-![照片吼！](./head.jpg)
+###我的一些其他内容：
+*	微博-ID: [泷彦](http://weibo.com/takihiko)
+*	图虫-ID: [罗尼亚寿司](http://takihiko.tuchong.com)
+*	豆瓣-ID: [子衿](http://www.douban.com/people/takihiko/)

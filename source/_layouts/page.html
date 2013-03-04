@@ -1,19 +1,32 @@
 ---
-layout: default
+layout: base
+single: true
 ---
 
-<article class="page">
-    {% if page.title %}
-    <h1 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+<div class="post-header">
+    {% if index %}
+    <h1 class="post-title">
+        <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+    </h1>
+    {% else %}
+    <h1 class="post-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
     {% endif %}
-    <div class="entry-content">{{ content }}</div>
-</article>
-{% unless page.sharing == false %}
-	{% include post/sharing.html %}
-{% endunless %}
-{% if site.disqus_short_name and page.comments == true %}
-<section id="comment">
-    <h1 class="title">Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-</section>
-{% endif %}
+</div>
+
+<div class="post-content">{{ content }}</div>
+
+<div class="post-single">
+  <div class="post-meta">
+    {% unless page.sharing == false %}
+      {% include post/sharing.html %}
+    {% endunless %}
+  </div>
+  <div class="clear"></div>
+
+  {% if site.disqus_short_name and page.comments == true %}
+  <div id="comments">
+    <h2>Comments</h2>
+    <div id="disqus_thread" aria-live="polite"></div>
+  </div>
+  {% endif %}
+</div>

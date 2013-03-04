@@ -1,0 +1,40 @@
+---
+layout: base
+single: true
+current: galleries
+---
+<style TYPE="text/css">
+/*.gallery-image-wrapper {*/
+  /*height: 300px;*/
+  /*width: 300px;*/
+  /*display: inline-block;*/
+  /*margin: 1em;*/
+  /*position: relative;*/
+  /*text-align: center;*/
+/*}*/
+/*.gallery-image {*/
+  /*margin: auto;*/
+  /*position: absolute;*/
+  /*top: 0px;*/
+  /*bottom: 0px;*/
+  /*max-height: 100%;*/
+  /*max-width: 100%;*/
+/*}*/
+</style>
+<h1><a href="/{{ site.gallery_dir }}">{{ page.title }}</a></h1>
+<hr />
+{% for image in page.images %}
+    <div class="gallery-image-wrapper">
+        <a href="/{{ site.gallery_dir }}/{{ page.name }}/{{ image }}">
+            <img class="gallery-image" alt="{{ page.photos[image] }}" src="/{{ site.gallery_dir }}/{{ page.name }}/thumbs/{{ image }}" />
+        </a>
+        <p>{{ page.photos[image] }}</p>
+    </div>
+{% endfor %}
+
+{% if site.disqus_short_name and page.comments == true %}
+<section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+</section>
+{% endif %}
