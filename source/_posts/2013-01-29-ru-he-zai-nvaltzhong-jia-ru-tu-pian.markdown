@@ -3,7 +3,7 @@ layout: post
 title: "如何在nvALT中加入图片"
 date: 2013-01-29 15:17
 comments: true
-categories: [Tech, Markdown]
+categories: [技术, Markdown]
 ---
 ## 方法一
 {% img /pictures/插入图片测试.png 测试图片1%}  

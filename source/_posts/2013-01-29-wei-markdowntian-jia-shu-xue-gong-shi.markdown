@@ -3,7 +3,7 @@ layout: post
 title: "为Markdown添加数学公式"
 date: 2013-01-29 14:49
 comments: true
-categories: [Markdown, Tech]
+categories: [Markdown, 技术]
 ---
 
 如何在`Markdown`语言中加入数学公式。这个问题是我这两天一直在考虑的。通过`Google`搜索，以及自己分析研究。我确定了以下四个解决方案。他们都可以完美支持中文和数学公式。其中第四个方案，我个人认为是最方便的。

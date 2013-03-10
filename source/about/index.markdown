@@ -8,7 +8,7 @@ comments: false
 sharing: true
 footer: true
 ---
-<img style="float:left;margin-right: 24px;" width="180px" title="Scorpiohw" src="https://secure.gravatar.com/avatar/53a25fe5b3a128eca4e45ee807889c88?s=420" alt="Avatar">
+<img style="float:left;margin-right: 24px;" width="180px" title="Scorpiohw" src="/images/portrait.jpeg" alt="Avatar">
 
 Aloha! 我就是这个博客的主人啦～XD
 
@@ -17,6 +17,5 @@ Aloha! 我就是这个博客的主人啦～XD
 目前我在米国读书，主修计算机科学（Computer Science）。如果你对本博客的内容有任何的疑问，请放心使用评论功能。如果希望私下与我联系，请发送至【huanwng at gmail.com】。如无问题，我会尽快回复。
 
 ###我的一些其他内容：
-*	微博-ID: [泷彦](http://weibo.com/takihiko)
 *	图虫-ID: [罗尼亚寿司](http://takihiko.tuchong.com)
 *	豆瓣-ID: [子衿](http://www.douban.com/people/takihiko/)
