@@ -7,11 +7,11 @@
 
   <meta name="author" content="ScorpioHW">
   
-  <meta name="description" content="如何在nvALT中加入图片 Jan 29th, 2013 方法一 ![插入图片测试](./pictures/插入图片测试.png) 如上所示，我在nvALT数据库中建立了一个专门用于存放_Picture的文件，之后把所有的图片放在这里，通过Markdown语言的特性进行调用。 &hellip;">
+  <meta name="description" content="卷首语 Jan 25th, 2013 一直希望有自己的部屋，现在这个愿望终于实现了。：） 无论是最早的百度空间，还是之后的blog.com，或者点点，总之写起来没有感觉。我想还是归属感的问题吧。博客应该是一种心血的见证，应该像midori一样，是充满了回忆的美好事物。这样才对吧。 &hellip;">
   
   
 
-  <link rel="canonical" href="http://scorpiohw.github.com/blog/2013/01/29/ru-he-zai-nvaltzhong-jia-ru-tu-pian">
+  <link rel="canonical" href="http://scorpiohw.github.com/blog/page/4">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="伯遠君の部屋" type="application/atom+xml">
@@ -40,7 +40,7 @@
 <div class="clear"></div>
 <ul id="nav">
   
-    <li> <a href="/">blog</a> </li>
+    <li> <a href="/" class="current">blog</a> </li>
   
 
   
@@ -52,73 +52,45 @@
   
 </ul>
 
-    <div id="main"> <div class="post-header">
+    <div id="main"> 
+
   
-    <h1 class="post-title">如何在nvALT中加入图片</h1>
+  <div class="post"> <div class="post-header">
   
+    <h1 class="post-title">
+      <a href="/blog/2013/01/25/hello-world/">卷首语</a>
+    </h1>
   
-
-
-
-
-
-
-
-
   
 
 
-<time datetime="2013-01-29T15:17:00+08:00" pubdate data-updated="true">Jan 29<span>th</span>, 2013</time>
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-25T17:56:00+08:00" pubdate data-updated="true">Jan 25<span>th</span>, 2013</time>
 </div>
 
-<div class="post-content"><h2>方法一</h2>
+<div class="post-content"><p>一直希望有自己的部屋，现在这个愿望终于实现了。：）</p>
 
-<p><img src="/pictures/插入图片测试.png" title="测试图片1" ></p>
+<p>无论是最早的百度空间，还是之后的blog.com，或者点点，总之写起来没有感觉。我想还是归属感的问题吧。博客应该是一种心血的见证，应该像midori一样，是充满了回忆的美好事物。这样才对吧。</p>
 
-<p><code>![插入图片测试](./pictures/插入图片测试.png)</code></p>
+<p>我希望以后可以好好的建设这个部屋。我喜欢做站长的感觉。</p>
 
-<p>如上所示，我在<code>nvALT</code>数据库中建立了一个专门用于存放<code>_Picture</code>的文件，之后把所有的图片放在这里，通过<code>Markdown</code>语言的特性进行调用。</p>
-
-<p>因为<code>nvALT</code>支持第三方编辑器的修改。所以可以很容易的启动<code>Mou</code>这个软件。这样就可以完美解决<code>nvALT</code>只能存文本的情况了。真的是太好用了。。。以后就可以保存图片了！XD</p>
-
-<h2>方法二</h2>
-
-<p>方法一中的方式使通过相对地址。这样的好处是只要文件结构相同不需要修改代码。方法二中采用的是直接地址，好处是可以添加文件，添加视频等等任何东西都可以只要绝对地址不改变。不过对于文件结构稳定性要求较高。不适合长期使用。还是相对地址比较合适。当然如果是有效期比较短的文件没有什么问题，使用完直接<code>export</code>就好了。如果有效期比较长的文件就需要考虑引用方式了。</p>
-
-<p><img src="/pictures/mouth.png" title="测试图片2" ></p>
-
-<p><code>![](file:///Users/Mike/Dropbox/Apps/nvALT%20Data/pictures/mouth.png)</code></p>
+<p>加油！</p>
 </div>
+ </div>
 
 
-<div class="post-single">
-  <div class="post-meta">
-    
-
-<span class="categories">
-  Categories:
-  
-    <a class='category' href='/blog/categories/markdown/'>Markdown</a>, <a class='category' href='/blog/categories/技术/'>技术</a>
-  
-</span>
-
-
-    
-      <div class="sharing">
+<div id="pagination">
   
   
-  
-</div>
-
-    
-  </div>
-  <div class="clear"></div>
-
-  
-    <div id="comments">
-      <h2>Comments</h1>
-      <div id="disqus_thread" aria-live="polite"></div>
-    </div>
+    <a class="next" href="/blog/page/3/">Next&raquo;</a>
   
 </div>
  </div>
@@ -182,10 +154,7 @@
       var disqus_shortname = 'scorpiohw';
       
         
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://scorpiohw.github.com/blog/2013/01/29/ru-he-zai-nvaltzhong-jia-ru-tu-pian/';
-        var disqus_url = 'http://scorpiohw.github.com/blog/2013/01/29/ru-he-zai-nvaltzhong-jia-ru-tu-pian/';
-        var disqus_script = 'embed.js';
+        var disqus_script = 'count.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
