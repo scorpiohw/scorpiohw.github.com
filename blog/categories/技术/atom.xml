@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 技术 | 伯遠君の部屋]]></title>
   <link href="http://scorpiohw.github.com/blog/categories/技术/atom.xml" rel="self"/>
   <link href="http://scorpiohw.github.com/"/>
-  <updated>2013-05-09T23:20:00+08:00</updated>
+  <updated>2014-03-05T21:22:04-08:00</updated>
   <id>http://scorpiohw.github.com/</id>
   <author>
     <name><![CDATA[ScorpioHW]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[如何在nvALT中加入图片]]></title>
     <link href="http://scorpiohw.github.com/blog/2013/01/29/ru-he-zai-nvaltzhong-jia-ru-tu-pian/"/>
-    <updated>2013-01-29T15:17:00+08:00</updated>
+    <updated>2013-01-29T15:17:00-08:00</updated>
     <id>http://scorpiohw.github.com/blog/2013/01/29/ru-he-zai-nvaltzhong-jia-ru-tu-pian</id>
     <content type="html"><![CDATA[<h2>方法一</h2>
 
@@ -41,7 +41,7 @@
   <entry>
     <title type="html"><![CDATA[为Markdown添加数学公式]]></title>
     <link href="http://scorpiohw.github.com/blog/2013/01/29/wei-markdowntian-jia-shu-xue-gong-shi/"/>
-    <updated>2013-01-29T14:49:00+08:00</updated>
+    <updated>2013-01-29T14:49:00-08:00</updated>
     <id>http://scorpiohw.github.com/blog/2013/01/29/wei-markdowntian-jia-shu-xue-gong-shi</id>
     <content type="html"><![CDATA[<p>如何在<code>Markdown</code>语言中加入数学公式。这个问题是我这两天一直在考虑的。通过<code>Google</code>搜索，以及自己分析研究。我确定了以下四个解决方案。他们都可以完美支持中文和数学公式。其中第四个方案，我个人认为是最方便的。</p>
 
@@ -110,7 +110,7 @@ xelatex anyName.tex -o anyName.pdf
   <entry>
     <title type="html"><![CDATA[卷首语]]></title>
     <link href="http://scorpiohw.github.com/blog/2013/01/25/hello-world/"/>
-    <updated>2013-01-25T17:56:00+08:00</updated>
+    <updated>2013-01-25T17:56:00-08:00</updated>
     <id>http://scorpiohw.github.com/blog/2013/01/25/hello-world</id>
     <content type="html"><![CDATA[<p>一直希望有自己的部屋，现在这个愿望终于实现了。：）</p>
 
